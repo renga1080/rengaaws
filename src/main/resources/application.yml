@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /renga-aws-service
+
+spring:
+  application:
+    name: renga-aws-service
+  servlet:
+  multipart:
+    enabled:  true
+    file-size-threshold:  2KB
+    max-file-size:  200MB
+    max-request-size: 215MB
+  h2.console.enabled: true
+
+
+file.upload-dir:  ./uploads
+
+
+amazonproperties:
+  endpointUrl:  s3-us-east-2.amazonaws.com
