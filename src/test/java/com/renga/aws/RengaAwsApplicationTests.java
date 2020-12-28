@@ -11,6 +11,8 @@ public class RengaAwsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
+		// Test commit
 	}
 
 }
